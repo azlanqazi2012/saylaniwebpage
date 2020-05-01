@@ -1,19 +1,27 @@
 
 *{
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 header{
     background-color: cadetblue;
 }
 
+h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DD5;
+}
 
-
-.col-md-3{
+/* .col-md-3{
     background-color: chartreuse;
 }
 .col-md-6{
     background-color: darkgreen;
-}
+} */
 nav{
     background-color: darkslategray;
 }
@@ -59,4 +67,69 @@ color:#427900 !important;
     
 
 
+}
+
+.services{
+background-color: rgba(36, 79, 242, 0.8) !important;
+
+}
+
+.cards {
+
+  
+    height: 185px;
+    padding: 0px 15px;
+    margin: 30px 10px 30px;
+    box-shadow: 3px 3px 17px gray;
+
+
+}
+.cards img{
+    margin-top: 20px;
+}
+.cards h1{
+    margin-top: 10px;
+   color: #316DC3;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    margin: 50px;
+    text-align: center;
+width: 100%;
+}
+.mission{
+    text-align: left;
+    margin: 0px 0px 40px;
+    background-color: rgb(227, 235, 215);
+    height: 73px;
+    padding: 15px 15px;
+}
+.mission a{
+margin: 0px 10px 100px;
+padding: 0px 0px 10px;
+}
+.event{
+text-align: left;
+    
+    background-color: white !important;
+    height: 294px;
+    padding: 0px 15px;
+}
+.event marquee{
+    background-color: white !important;
+    text-align: left;
+}
+.media{
+    display: inline;
+}
+.media h4{
+    display: inline;
+    text-transform: uppercase;
+}
+.gallery{
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+    
 }
